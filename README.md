@@ -4,10 +4,15 @@
   </a>
 </p>
 
-[![Solana crate](https://img.shields.io/crates/v/solana-core.svg)](https://crates.io/crates/solana-core)
 [![Solana documentation](https://docs.rs/solana-core/badge.svg)](https://docs.rs/solana-core)
-[![Build status](https://badge.buildkite.com/8cc350de251d61483db98bdfc895b9ea0ac8ffa4a32ee850ed.svg?branch=master)](https://buildkite.com/solana-labs/solana/builds?branch=master)
-[![codecov](https://codecov.io/gh/solana-labs/solana/branch/master/graph/badge.svg)](https://codecov.io/gh/solana-labs/solana)
+
+# Installing
+
+To install the latest Xolana release on Linux (Red Hat or Ubuntu) or macOS, follow these steps. macOS users must first install Homebrew.
+
+```shell
+curl https://raw.githubusercontent.com/jacklevin74/xolana/xolana/install/solana-install-init.sh | sudo bash
+```
 
 # Building
 
@@ -47,7 +52,7 @@ $ sudo dnf install openssl-devel systemd-devel pkg-config zlib-devel llvm clang 
 ## **2. Download the source code.**
 
 ```bash
-$ git clone https://github.com/solana-labs/solana.git
+$ git clone https://github.com/jacklevin74/xolana.git
 $ cd solana
 ```
 
