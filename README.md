@@ -11,7 +11,7 @@
 To install the latest Xolana release on Linux (Red Hat or Ubuntu) or macOS, follow these steps. macOS users must first install Homebrew.
 
 ```shell
-curl https://raw.githubusercontent.com/jacklevin74/xolana/xolana/install/solana-install-init.sh | sh
+curl https://raw.githubusercontent.com/jacklevin74/xolana/xolana/install/solana-install-init.sh | sudo bash
 ```
 
 # Building
